@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    min-height: 200vh;
+    padding: 2.5rem; 
+    background: #EEF5FF;
+}
+
+.line{
+    margin-top: 0.4rem;
+    height: 0.1rem;
+    background: #000;
+    width: 7rem;
+}
+
+.hero-name{
+    font-size: 5rem;
+    width: 10rem;
+}
+
+.spec{
+    margin-top: 1rem;
+    font-size: 2rem;
+
+}
+
+.contact{
+    margin-top: 5rem;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 1rem;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.education{
+    margin-top: 5rem;
+
+}
