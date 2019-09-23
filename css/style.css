@@ -9,11 +9,12 @@
     min-height: 200vh;
     padding: 2.5rem; 
     background: #EEF5FF;
+    
 }
 
 .line{
     margin-top: 0.4rem;
-    height: 0.1rem;
+    height: 0.12rem;
     background: #000;
     width: 7rem;
 }
@@ -43,8 +44,37 @@
     width: 1.5rem;
     height: 1.5rem;
 }
-
+/* 
 .education{
     margin-top: 5rem;
 
+} */
+
+.content{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content > div{
+    flex: 1;
+    }
+
+.progBar{
+    background: rgba(51, 51, 51, 0.466);
+    height: 0.3rem;
+}
+
+.skillBlock{
+    display: inline;
+}
+
+@media only screen and (max-width: 780px){
+.content{
+    display: block;
+}
+
+.content > div{
+    margin-top: 3rem;;
+}
 }
